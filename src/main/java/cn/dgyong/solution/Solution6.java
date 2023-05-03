@@ -7,6 +7,9 @@ import java.util.List;
  * 原题：https://leetcode.cn/problems/zigzag-conversion/
  */
 public class Solution6 {
+    /**
+     *  解题思路：https://leetcode.cn/problems/zigzag-conversion/solution/zzi-xing-bian-huan-by-jyd/
+     */
     public String convert(String s, int numRows) {
         //仅1行直接返回
         if (numRows<2)return s;
